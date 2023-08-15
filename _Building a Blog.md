@@ -67,3 +67,4 @@
   > Create src/pages/blog.astro - http://localhost:3000/blog
   > Add navigation links to /index & /about
   > 🎫 Unlike many frameworks, Astro uses standard HTML <a> elements to navigate between pages (also called routes), with traditional page refreshes.
+  > Commit changes to github & Netlify - need to wait a few minutes
