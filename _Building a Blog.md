@@ -81,3 +81,17 @@
   - Define and use a variable
   - Write JavaScript expressions in Astro
   - Conditionally render elements
+  - Analyze the Pattern
+  - # Resourses:
+  - https://docs.astro.build/en/core-concepts/astro-syntax/#jsx-like-expressions
+  - # Style your About page - https://docs.astro.build/en/tutorial/2-pages/4/
+  - Using Astro’s own <style></style> tags
+  - # Resourses:
+  - https://docs.astro.build/en/core-concepts/astro-syntax/#differences-between-astro-and-jsx
+  - https://docs.astro.build/en/guides/styling/#styling-in-astro
+  - https://docs.astro.build/en/guides/styling/#css-variables
+  - # Add site⁠-⁠wide styling - https://docs.astro.build/en/tutorial/2-pages/5/
+  - Add a global stylesheet
+    - create file: src/styles/global.css
+  - # Check in: Unit 3 ⁠-⁠ Components - https://docs.astro.build/en/tutorial/3-components/
+  -
