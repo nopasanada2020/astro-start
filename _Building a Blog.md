@@ -71,3 +71,13 @@
   - # Resources:
   - https://docs.astro.build/en/core-concepts/astro-pages/#file-based-routing
   - https://docs.astro.build/en/core-concepts/astro-pages/#astro-pages
+  - # Write your first Markdown blog post - https://docs.astro.build/en/tutorial/2-pages/2/
+    > create file: posts/post-1.md, post-2, post-3
+  - # Resourses:
+  - https://www.markdownguide.org/cheat-sheet/
+  - https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools
+  - https://assemble.io/docs/YAML-front-matter.html
+  - # Add dynamic content about you - https://docs.astro.build/en/tutorial/2-pages/3/
+  - Define and use a variable
+  - Write JavaScript expressions in Astro
+  - Conditionally render elements
