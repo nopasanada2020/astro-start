@@ -46,13 +46,24 @@
 - - > create new respository > astro-start
 - url > https://github.com/nopasanada2020/astro-start.git
 - SCM control pallet > shft + cntl + p
-  ped create branch
+  ped ex: create branch
 - commit local code to GitHub
   - ped - I prefer to you the command line?
-- # 30:35 Create Netlify site
+  - ped - Resources: https://code.visualstudio.com/docs/sourcecontrol/overview#_git-support
+- # Deploy your site to the web - https://docs.astro.build/en/tutorial/1-setup/5/
 - https://app.netlify.com
 - login with email not github
-- https://genuine-piroshki-d00619.netlify.app
-- change name: https://astro-blog-ped.netlify.app/
-- # 35:55 Check in - Unit 2 - Pages
-- 42:17 Add navigation links
+- Sites > Add new site > import an existing prj > deploy ...
+- https://dapper-axolotl-9ecd3a.netlify.app/
+- Site config > Site info > change site name: https://astro-startt.netlify.app/
+- # Check in - Unit 2 - Pages - https://docs.astro.build/en/tutorial/2-pages/
+- # In this unit:
+  - Create your first Astro pages with the .astro syntax
+  - Add blog posts with Markdown (.md) files
+  - Style an individual page with <style>
+  - Apply global styles across pages
+- # Create your first Astro page - https://docs.astro.build/en/tutorial/2-pages/1/
+  > Create src/pages/about.astro - http://localhost:3000/about
+  > Create src/pages/blog.astro - http://localhost:3000/blog
+  > Add navigation links to /index & /about
+  > 🎫 Unlike many frameworks, Astro uses standard HTML <a> elements to navigate between pages (also called routes), with traditional page refreshes.
