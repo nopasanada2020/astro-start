@@ -45,6 +45,8 @@
 - https://github.com/ ped/gitgitgit2020
 - - > create new respository > astro-start
 - url > https://github.com/nopasanada2020/astro-start.git
+- SCM control pallet > shft + cntl + p
+  ped create branch
 - commit local code to GitHub
   - ped - I prefer to you the command line?
 - # 30:35 Create Netlify site
