@@ -68,3 +68,6 @@
   > Add navigation links to /index & /about
   > 🎫 Unlike many frameworks, Astro uses standard HTML <a> elements to navigate between pages (also called routes), with traditional page refreshes.
   > Commit changes to github & Netlify - need to wait a few minutes
+  - # Resources:
+  - https://docs.astro.build/en/core-concepts/astro-pages/#file-based-routing
+  - https://docs.astro.build/en/core-concepts/astro-pages/#astro-pages
