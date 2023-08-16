@@ -94,4 +94,69 @@
   - Add a global stylesheet
     - create file: src/styles/global.css
   - # Check in: Unit 3 ⁠-⁠ Components - https://docs.astro.build/en/tutorial/3-components/
-  -
+  - # Build:
+  - A Navigation component that presents a menu of links to your pages
+  - A Footer component to include at the bottom of each page
+  - A Social Media component, used in the Footer, that links to profile pages
+  - An interactive Hamburger component to toggle the Navigation on mobile
+  - # Make a reusable Navigation component - https://docs.astro.build/en/tutorial/3-components/1/
+  - Create a new src/components/ folder
+  - Create a new file: src/components/Navigation.astro.
+  - # Resourses:
+  - https://docs.astro.build/en/core-concepts/astro-components/#component-structure
+  - https://refactoring.com/
+  - # Create a social media footer - https://docs.astro.build/en/tutorial/3-components/2/
+  - Create src/components/Footer.astro.
+  - Create a Social Media component: src/components/Social.astro
+  - Import and use Social.astro in Footer
+  - # Resourses:
+  - https://docs.astro.build/en/core-concepts/astro-components/#component-props
+  - # Build it yourself ⁠-⁠ Header - https://docs.astro.build/en/tutorial/3-components/3/
+  - Add responsive styles
+  - # Resourses:
+  - https://www.droptica.com/blog/component-based-design/
+  - https://www.dofactory.com/html/semantics
+  - https://www.mobileapps.com/blog/mobile-first-design
+  - # Send your first script to the browser - https://docs.astro.build/en/tutorial/3-components/4/
+  - Build a Hamburger component - src/components/Hamburger.astro
+  - Write your first script tag
+  - Importing a .js file - Create src/scripts/menu.js
+  - # Resourses:
+  - https://docs.astro.build/en/guides/client-side-scripts/
+  - # Using <script> in Astro - https://docs.astro.build/en/guides/client-side-scripts/
+  - # Check in: Unit 4 ⁠-⁠ Layouts - https://docs.astro.build/en/tutorial/4-layouts/
+  - In this unit, you’ll build layouts to share common elements and styles across your pages and blog posts.
+    - Create reusable layout components
+    - Pass content to your layouts with <slot />
+    - Pass data from Markdown frontmatter to your layouts
+    - Nest multiple layouts
+  - Create your first layout component - src/layouts/BaseLayout.astro
+  - Use your layout on a page - The <slot /> allows you to inject (or “slot in”) child content written between opening and closing <Component></Component> tags to any Component.astro file.
+  - Pass page-specific values as props
+  - # Resourses:
+  - https://docs.astro.build/en/core-concepts/layouts/
+  - https://docs.astro.build/en/core-concepts/astro-components/#slots
+  - # Create and pass data to a custom blog layout - https://docs.astro.build/en/tutorial/4-layouts/2/
+  - Now that you have a layout for your pages, let’s add a layout for blog posts!
+    - Create a new blog post layout for your Markdown files
+    - Pass YAML frontmatter values as props to layout component
+  - Add a layout to your blog posts
+  - When you include the layout frontmatter property in an .md file, all of your frontmatter YAML values are available to the layout file.
+  - create src/layouts/MarkdownPostLayout.astro
+  - # Resourses:
+  - https://docs.astro.build/en/guides/markdown-content/#frontmatter-layout
+  - https://docs.astro.build/en/core-concepts/layouts/#markdown-layout-props
+  - https://dev.to/paulasantamaria/introduction-to-yaml-125f
+  - # Combine layouts to get the best of both worlds - https://docs.astro.build/en/tutorial/4-layouts/3/
+  - Nest your two layouts - Nest your blog post layout inside your main page layout
+  - # Resourses:
+  - https://docs.astro.build/en/core-concepts/layouts/#nesting-layouts
+  - # Migrate an existing project to Astro - https://docs.astro.build/en/guides/migrate-to-astro/
+  - # Use a CMS with Astro - https://docs.astro.build/en/guides/cms/
+  - # Use a backend service with Astro - https://docs.astro.build/en/guides/backend/
+  - # Add Integrations - https://docs.astro.build/en/guides/integrations-guide/
+  - Astro includes an astro add command to automate the setup of integrations.
+  - Astro integrations are always added through the integrations property in your astro.config.mjs file.
+  - # Deploy your Astro Site - https://docs.astro.build/en/guides/deploy/
+  - # More Recipes - https://docs.astro.build/en/recipes/
+  - ...
